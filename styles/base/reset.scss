@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+
+  /* Width the scroll */
+  &::-webkit-scrollbar {
+    width: calc(var(--gutter) / 2);
+  }
+  /* Styles bar (thumb) of the scroll */
+  &::-webkit-scrollbar-thumb {
+    background: var(--bg-first-gradient);
+  }
+  /* Styles for the (track) of the scroll */
+  &::-webkit-scrollbar-track {
+    background-color: var(--c-accent-darker);
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--f-first);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--f-second);
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------ RESET STYLES ------------------ */
