@@ -5,14 +5,14 @@
   --color-black-500: #080d19;
     --color-black-500-alpha-50: hsla(222, 52%, 6%, .5);
   
-    --color-white-500: #f8f8f8;
+  --color-white-500: #f8f8f8;
   
   --color-green-400: #0da691;
     --color-green-400-alpha-50: hsla(172, 85%, 35%, .5);
   --color-green-500: #075349;
     --color-green-500-alpha-15: hsla(172, 84%, 18%, .15);
   
-    --color-cyan-500: #84f5e6;
+  --color-cyan-500: #84f5e6;
   
     /* GRADIENTS */
   --bg-first-gradient: linear-gradient(90deg, #92FE9D 40%, #00C9FF 90%);
@@ -44,16 +44,17 @@
   --layer-negative-z-index: -1;
   --layer-page-z-index: 1;
   --layer-dropdown-z-index: 2;
-  --layer-modal-z-index: 3;
-  --layer-popover-z-index: 4;
-  --layer-tooltip-z-index: 5;
+  --layer-sticky-nav-z-index: 3;
+  --layer-modal-z-index: 4;
+  --layer-popover-z-index: 5;
+  --layer-tooltip-z-index: 6;
   /* border radius */
   --border-radius-rounded: 50px;
   --border-radius-semi: 10px;
   --border-radius-minor: 5px;
   /* Box shadow */
-  --box-shadow-md: 0px 10px 20px -6px var(--color-green-400-alpha-50);
-  --box-shadow-lg: 0px 64px 75p var(--color-black-500-alpha-50);
+  --box-md: 0px 10px 20px -6px var(--color-green-400-alpha-50);
+  --box-lg: 0px 64px 75px var(--color-black-500-alpha-50);
 
   /* ANIMATION */
   /* Duration */
