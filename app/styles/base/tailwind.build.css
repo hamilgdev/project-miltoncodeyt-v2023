@@ -24,7 +24,7 @@
   }
 
   .l-section-sm {
-    @apply px-4 md:px-0 max-w-screen-sm m-auto;
+    @apply max-w-screen-sm m-auto mt-8;
   }
 
   .l-section-md {
