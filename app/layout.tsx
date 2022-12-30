@@ -1,5 +1,7 @@
 import 'styles/globals.scss';
+
 import { NavBar } from 'components/NavBar';
+import decorativeBgCodeBig from 'public/svg/bg-code-lines.svg';
 
 export default function RootLayout({
   children
@@ -9,7 +11,10 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>
+      <body
+        className='bg-no-repeat'
+        style={{ backgroundImage: `url(${decorativeBgCodeBig})` }}
+      >
         <NavBar />
         {children}
       </body>

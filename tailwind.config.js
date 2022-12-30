@@ -13,7 +13,8 @@ module.exports = {
         'color-green-500': 'var(--color-green-500)',
         'color-green-500-alpha-15': 'var(--color-green-500-alpha-15)',
         'color-cyan-500': 'var(--color-cyan-500)',
-        'bg-first-gradient': 'var(--bg-first-gradient)'
+        'color-lime-500': 'var(--color-lime-500)',
+        'color-sky-500': 'var(--color-sky-500)'
       },
       boxShadow: {
         'box-md': 'var(--box-md)',

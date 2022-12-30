@@ -39,7 +39,7 @@
 
 @screen md {
   .l-container {
-    @apply max-w-screen-sm px-0;
+    @apply max-w-screen-md px-0;
   }
 }
 

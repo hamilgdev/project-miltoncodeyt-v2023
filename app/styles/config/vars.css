@@ -13,9 +13,8 @@
     --color-green-500-alpha-15: hsla(172, 84%, 18%, .15);
   
   --color-cyan-500: #84f5e6;
-  
-    /* GRADIENTS */
-  --bg-first-gradient: linear-gradient(90deg, #92FE9D 40%, #00C9FF 90%);
+  --color-lime-500: #92fe9d;
+  --color-sky-500: #00c9ff;
 
   /* TYPOGRAPHY */
   --f-first: "Oswald", sans-serif;
