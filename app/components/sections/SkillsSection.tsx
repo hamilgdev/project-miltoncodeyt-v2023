@@ -76,7 +76,7 @@ export const SkillsSection = () => {
         </p>
         <div className='l-section-sm flex gap-4 justify-center flex-wrap'>
           {dataSkills.map(({ title, importIcon }) => (
-            <SkillCard title={title} srcImage={importIcon} />
+            <SkillCard key={title} title={title} srcImage={importIcon} />
           ))}
         </div>
       </div>

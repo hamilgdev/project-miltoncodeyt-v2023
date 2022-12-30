@@ -20,7 +20,7 @@ export const NavBar = () => {
   const handleToggleButton = () => setToggleMenu(!toggleMenu);
 
   return (
-    <header className='sticky bg-color-green-500-alpha-15 z-[var(--layer-sticky-nav-z-index)] -top-0 shadow-box-lg flex items-center lg:justify-between after:absolute after:content-[""] after:w-full after:h-full after:backdrop-blur-xl after:z-[var(--layer-negative-z-index)]'>
+    <header className='sticky top-0 flex items-center pseudo-bg-backdrop-blur lg:justify-between'>
       <div className='w-full lg:max-w-screen-lg lg:m-auto xl:max-w-screen-xl flex flex-wrap lg:flex-nowrap items-center justify-between lg:h-14 relative lg:justify-center'>
         <div className='l-container flex items-center justify-between py-2 lg:py-0 lg:m-0 lg:w-auto'>
           <button

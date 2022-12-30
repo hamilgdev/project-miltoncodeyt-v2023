@@ -1,8 +1,4 @@
-import {
-  BannerSection,
-  AboutMeSection,
-  SkillsSection
-} from 'components/sections';
+import { BannerSection, AboutMeSection, SkillsSection } from 'components';
 
 export default function HomePage() {
   return (

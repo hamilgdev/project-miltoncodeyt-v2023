@@ -1,6 +1,9 @@
+'use client';
+
 import 'styles/globals.scss';
 
-import { NavBar } from 'components/NavBar';
+import { NavBar, Footer } from 'components';
+
 import decorativeBgCodeBig from 'public/svg/bg-code-lines.svg';
 
 export default function RootLayout({
@@ -12,11 +15,12 @@ export default function RootLayout({
     <html>
       <head />
       <body
-        className='bg-no-repeat'
+        className='bg-no-repeat bg-contain'
         style={{ backgroundImage: `url(${decorativeBgCodeBig.src})` }}
       >
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
