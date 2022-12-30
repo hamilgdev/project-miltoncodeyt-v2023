@@ -1,4 +1,4 @@
-const MenuData = [
+export const MenuData = [
   {
     id: 0,
     title: 'Sobre mí',
@@ -15,5 +15,3 @@ const MenuData = [
     path: 'annotations'
   }
 ];
-
-export default MenuData;
