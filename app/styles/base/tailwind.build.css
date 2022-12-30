@@ -19,6 +19,10 @@
     @apply m-auto px-4 w-full;
   }
 
+  .l-section {
+    @apply my-16 lg:flex lg:min-h-[768px];
+  }
+
   .l-section-sm {
     @apply px-4 md:px-0 max-w-screen-sm m-auto;
   }
@@ -33,8 +37,12 @@
   }
 
   .title-section {
-    @apply mb-8 uppercase text-fp-xlarge;
+    @apply mb-8 text-fp-xlarge uppercase text-color-cyan-500 lg:text-fp-xxlarge
   }
+
+  .description-section {
+    @apply max-w-screen-sm m-auto lg:text-fs-medium
+  } 
 }
 
 @screen md {
