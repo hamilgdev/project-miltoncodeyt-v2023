@@ -13,7 +13,7 @@ export default function RootLayout({
       <head />
       <body
         className='bg-no-repeat'
-        style={{ backgroundImage: `url(${decorativeBgCodeBig})` }}
+        style={{ backgroundImage: `url(${decorativeBgCodeBig.src})` }}
       >
         <NavBar />
         {children}

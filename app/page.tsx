@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import profilePic from 'public/img/profile.png';
 import decorativeLineCodeBig from 'public/svg/line-code-big.svg';
+import { SocialNetworks } from 'components/SocialNetworks';
 
 export default function HomePage() {
   return (
@@ -25,6 +26,9 @@ export default function HomePage() {
             alt='Decorative line code'
           />
         </div>
+      </div>
+      <div className='l-container relative z-[var(--layer-page-z-index)]'>
+        <SocialNetworks />
       </div>
     </section>
   );
