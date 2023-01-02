@@ -8,6 +8,7 @@ import nextjsIcon from 'public/svg/nextjs.svg';
 import postgresIcon from 'public/svg/postgresql.svg';
 import reactIcon from 'public/svg/react.svg';
 import rubyIcon from 'public/svg/ruby.svg';
+import gitIcon from 'public/svg/git.svg';
 import sassIcon from 'public/svg/sass.svg';
 import tailwindcssIcon from 'public/svg/tailwindcss.svg';
 
@@ -63,6 +64,10 @@ export const SkillsData = {
     {
       importIcon: tailwindcssIcon.src,
       title: 'Tailwindcss'
+    },
+    {
+      importIcon: gitIcon.src,
+      title: 'Git'
     }
   ]
 };

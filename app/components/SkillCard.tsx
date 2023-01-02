@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 interface Props {
   title: string;
-  srcImage: any;
+  srcImage: string;
 }
 
 export const SkillCard = ({ srcImage, title }: Props): JSX.Element => {
@@ -29,8 +29,7 @@ export const SkillCard = ({ srcImage, title }: Props): JSX.Element => {
 
   return (
     <article
-      className={`${animate} relative w-16 h-16 flex items-center p-[1px] shadow-box-md justify-center rounded-[var(--border-radius-minor)] bg-gradient-to-r from-[var(--color-lime-500)] to-[var(--color-sky-500)]
-      `}
+      className={`${animate} relative w-16 h-16 flex items-center p-[1px] shadow-box-md justify-center rounded-[var(--border-radius-minor)] gradient-bg-lime-to-sky`}
     >
       <div className='flex justify-center items-center w-full h-full bg-color-black-500 rounded-[var(--border-radius-minor)]'>
         <Image

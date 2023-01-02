@@ -22,9 +22,18 @@ export const BannerSection = () => {
           </h2>
         </div>
         <div className='relative flex flex-col justify-self-end z-[var(--layer-page-z-index)] min-[320px]:w[20rem] sm:w-[25rem] pointer-events-none lg:justify-self-start xl:w-[28rem] lg:row-span-1 lg:col-start-3 lg:col-end-5'>
-          <Image src={profilePic} alt='Hamilton G.' quality={100} />
+          <Image
+            src={profilePic}
+            alt='Hamilton G.'
+            width={920}
+            height={1352}
+            quality={100}
+          />
           <Image
             className='hidden z-[var(--layer-negative-z-index)] lg:absolute lg:inline-flex lg:left-1/4 lg:bottom-[15%] xl:left-1/3'
+            width={616}
+            height={87}
+            quality={100}
             src={decorativeLineCodeBig}
             alt='Decorative line code'
           />

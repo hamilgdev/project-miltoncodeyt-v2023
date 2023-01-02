@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* estilos de utilidades personalizadas */
 @layer utilities {
   /* TYPOGRAPHY */
@@ -48,6 +47,9 @@
     @apply bg-color-green-500-alpha-15 shadow-box-lg z-[var(--layer-sticky-nav-z-index)] after:absolute after:content-[""] after:w-full after:h-full after:backdrop-blur-xl after:z-[var(--layer-negative-z-index)]
   }
   
+  .gradient-bg-lime-to-sky {
+    @apply bg-gradient-to-r from-[var(--color-lime-500)] to-[var(--color-sky-500)]
+  }
 }
 
 @screen md {
