@@ -1,5 +1,5 @@
-import banner from 'public/img/banner.jpg';
-import bannert from 'public/img/bannert.jpg';
+import banner from 'public/img/banner.png';
+import bannert from 'public/img/bannert.png';
 import logo from 'public/img/logo192.png';
 import favicon from 'public/favicon.ico';
 
