@@ -2,6 +2,7 @@ import behance from 'public/svg/behance.svg';
 import instagram from 'public/svg/instagram.svg';
 import linkedin from 'public/svg/linkedin.svg';
 import twitter from 'public/svg/twitter.svg';
+import codepen from 'public/svg/codepen.svg';
 
 export const SocialNetworksData = [
   {
@@ -18,6 +19,11 @@ export const SocialNetworksData = [
     importIcon: linkedin.src,
     title: 'Linkeding',
     url: 'https://www.linkedin.com/in/miltoncodeyt/'
+  },
+  {
+    importIcon: codepen.src,
+    title: 'Codepen',
+    url: 'https://codepen.io/miltoncodeyt'
   },
   {
     importIcon: behance.src,
