@@ -1,0 +1,37 @@
+/* Tipografia Primaria - Oswald */
+@font-face {
+  font-family: "Oswald";
+  src: url(./fonts/Oswald-Regular.woff2);
+  src: local("Oswald-Regular"), local("Oswald-Regular"),
+    local("LibelSuit"), url(./fonts/Oswald-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: regular;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(./fonts/Oswald-Bold.woff2);
+  src: local("Oswald-Bold"), local("Oswald-Bold"),
+    local("LibelSuit"), url(./fonts/Oswald-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: bold;
+  font-display: block;
+}
+
+/* Tipografia Secundaria - Raleway */
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: regular;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: bold;
+  font-display: block;
+}
