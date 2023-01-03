@@ -25,8 +25,8 @@ export const BannerSection = () => {
           <Image
             src={profilePic}
             alt='Hamilton G.'
-            width={920}
-            height={1352}
+            width={2000}
+            height={3000}
             quality={100}
           />
           <Image

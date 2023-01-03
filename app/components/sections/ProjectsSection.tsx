@@ -34,7 +34,7 @@ export const ProjectsSection = () => {
             href={behance?.url}
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-flex px-4 py-2 f-first animation-transform uppercase text-color-black-500 gradient-bg-lime-to-sky rounded-[var(--border-radius-minor)] lg:text-fp-base'
+            className='inline-flex px-4 py-2 f-first animation-transform uppercase text-color-black-500 cursor-pointer gradient-bg-lime-to-sky rounded-[var(--border-radius-minor)] lg:text-fp-base'
           >
             {text.moreBehance}
           </a>
