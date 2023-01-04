@@ -3,6 +3,20 @@
   will-change: transform;
 }
 
+.animate-bg-lighter {
+  animation: background-blend-mode 10s ease-in-out infinite;
+  will-change: background-blend-mode;
+}
+
+@keyframes background-blend-mode {
+  from {
+    background-blend-mode: initial;
+  }
+  to {
+    background-blend-mode: hard-light;
+  }
+}
+
 @keyframes scale {
   0%,
   100% {

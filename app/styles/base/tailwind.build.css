@@ -19,7 +19,7 @@
   }
 
   .l-section {
-    @apply my-16 lg:flex lg:min-h-[768px];
+    @apply my-16 lg:flex lg:min-h-[640px];
   }
 
   .l-section-sm {
