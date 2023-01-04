@@ -40,6 +40,7 @@ export const NavBar = () => {
             <Link
               key={id}
               href={path}
+              onClick={handleToggleButton}
               className={`f-first uppercase ${
                 isActive() === path
                   ? 'text-color-cyan-500'
