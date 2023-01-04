@@ -25,15 +25,13 @@ export const BannerSection = () => {
           <Image
             src={profilePic}
             alt='Hamilton G.'
-            width={2000}
-            height={3000}
-            quality={100}
+            width={1024}
+            height={2048}
           />
           <Image
             className='hidden z-[var(--layer-negative-z-index)] lg:absolute lg:inline-flex lg:left-1/4 lg:bottom-[15%] xl:left-1/3'
             width={616}
             height={87}
-            quality={100}
             src={decorativeLineCodeBig}
             alt='Decorative line code'
           />
