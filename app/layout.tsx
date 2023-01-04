@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang='es'>
       <head />
       <body
         className='animate-bg-lighter bg-no-repeat bg-cover lg:bg-auto'
