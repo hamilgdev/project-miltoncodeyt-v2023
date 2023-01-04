@@ -1,6 +1,7 @@
 'use client';
 
 import 'styles/globals.scss';
+import 'animate.css';
 
 import { NavBar, Footer } from 'components';
 

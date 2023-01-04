@@ -11,7 +11,7 @@ export const BannerSection = () => {
     <section className='sm:mt-8'>
       <div className='l-container grid grid-rows-1 grid-flow-row auto-rows-min sm:grid-cols-2 sm:items-center lg:grid-cols-4'>
         <div className='mt-2 mb-4 flex flex-col lg:justify-self-end lg:col-start-1 lg:row-span-1 lg:col-end-3 lg:mr-[-85px]'>
-          <h1 className='relative w-fit mb-4 font-bold uppercase text-fp-xxlarge whitespace-nowrap sm:text-fp-bigger md:text-[100px] sm:leading-snug lg:leading-tight after:content-[""] after:w-full after:h-2 after:bg-gradient-to-r from-[var(--color-lime-500)] to-[var(--color-sky-500)] after:absolute after:bottom-0 after:left-0 after:rounded-[var(--border-radius-semi)]'>
+          <h1 className='relative w-fit mb-4 font-bold uppercase text-fp-xxlarge whitespace-nowrap sm:text-fp-bigger md:text-[100px] sm:leading-snug lg:leading-tight after:content-[""] after:w-full after:h-2 after:bg-gradient-to-r from-[var(--color-lime-500)] to-[var(--color-sky-500)] after:absolute after:bottom-0 after:left-0 after:rounded-[var(--border-radius-semi)] animate__animated animate__fadeInUp'>
             {title}
           </h1>
           <p className='leading-tight text-fs-small sm:text-fs-regular lg:text-fs-big'>
@@ -25,6 +25,7 @@ export const BannerSection = () => {
           <Image
             src={profilePic}
             alt='Hamilton G.'
+            className='animate__animated animate__pulse'
             width={1024}
             height={2048}
           />
