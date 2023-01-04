@@ -44,7 +44,7 @@
   }
   
   .pseudo-bg-backdrop-blur {
-    @apply bg-color-green-500-alpha-15 shadow-box-lg z-[var(--layer-sticky-nav-z-index)] after:absolute after:content-[""] after:w-full after:h-full after:backdrop-blur-xl after:z-[var(--layer-negative-z-index)]
+    @apply bg-color-green-500-alpha-15 shadow-box-lg after:absolute after:content-[""] after:w-full after:h-full after:backdrop-blur-xl after:z-[var(--layer-negative-z-index)]
   }
   
   .gradient-bg-lime-to-sky {

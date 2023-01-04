@@ -7,7 +7,7 @@ const { nickname } = commons;
 
 export const Footer = () => {
   return (
-    <footer className='sticky -bottom-0 h-14 pseudo-bg-backdrop-blur flex items-center justify-between'>
+    <footer className='sticky -bottom-0 h-14 pseudo-bg-backdrop-blur flex items-center justify-between z-[var(--layer-sticky-nav-z-index)]'>
       <div className='l-container flex items-center justify-between'>
         <div className='flex items-center gap-2'>
           <Image src={copyIcon} alt='Copyright icon' width={16} height={16} />
