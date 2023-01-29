@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang='es'>
       <head />
       <body
-        className='animate-bg-lighter bg-no-repeat bg-cover lg:bg-auto'
+        className='animate-bg-lighter bg-no-repeat bg-fixed lg:bg-auto'
         style={{ backgroundImage: `url(${decorativeBgCodeBig.src})` }}
       >
         <NavBar />
