@@ -18,14 +18,14 @@ export const FilterDropdown = ({ categories, handleCategory }: Props) => {
   return (
     <article className='w-full bg-color-green-400 rounded-b-lg hadow-box-md'>
       <div className='flex flex-col text-left'>
-        <h3 className='px-2 py-2 w-full f-second text-fs-small font-bold bg-color-green-500-alpha-15 sm:px-4'>
+        <h3 className='px-4 py-2 w-full f-second text-fs-small font-bold bg-color-green-500-alpha-15 sm:px-4'>
           {text.categories}
         </h3>
         <div className='flex flex-col items-start'>
           {categories.map(({ category, checked }) => (
             <label
               key={category}
-              className='flex items-center p-2 sm:px-4 w-full hover:bg-color-green-500-alpha-15'
+              className='flex items-center p-2 px-4 w-full hover:bg-color-green-500-alpha-15'
             >
               <input
                 type='checkbox'

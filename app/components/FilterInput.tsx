@@ -26,7 +26,7 @@ export const FilterInput = ({ categories, handleCategory }: Props) => {
   return (
     <aside className='relative flex flex-col'>
       <button
-        className='flex items-center justify-between px-2 h-10 bg-color-green-500 sm:px-4 sm:w-56 sm:rounded-tl-lg sm:rounded-tr-lg'
+        className='flex items-center justify-between px-4 h-10 bg-color-green-500 sm:w-56 sm:rounded-tl-lg sm:rounded-tr-lg'
         onClick={handleToggleDropdownCategories}
       >
         <h3 className='f-first text-fp-small uppercase'>{text.filter}</h3>

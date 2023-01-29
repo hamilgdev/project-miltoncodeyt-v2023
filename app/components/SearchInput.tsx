@@ -20,7 +20,7 @@ export const SearchInput = ({
 }: Props) => {
   return (
     <form className='flex h-10 flex-1' onSubmit={handleSearch}>
-      <div className='flex flex-1 px-2 sm:px-4 py-1 bg-color-green-400-alpha-50 rounded-tl-lg'>
+      <div className='flex flex-1 px-4 py-1 bg-color-green-400-alpha-50 rounded-tl-lg'>
         <label htmlFor='search' className='flex pr-2 sm:pr-4'>
           <Image
             src={searchIcon}
