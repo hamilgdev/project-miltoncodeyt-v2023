@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import copyIcon from 'public/svg/copyright.svg';
-import { NetworkLikns } from 'components';
+import { NetworkLinks } from 'components';
 
 import { commons } from 'wording';
 const { nickname } = commons;
@@ -16,7 +16,7 @@ export const Footer = () => {
           </small>
         </div>
         <div className='flex gap-4 lg:gap-8 max-[360px]:hidden'>
-          <NetworkLikns />
+          <NetworkLinks />
         </div>
       </div>
     </footer>

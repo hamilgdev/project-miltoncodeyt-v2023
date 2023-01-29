@@ -7,6 +7,7 @@
   
   --color-green-400: #0da691;
     --color-green-400-alpha-50: hsla(172, 85%, 35%, .5);
+    --color-green-400-alpha-60: hsla(172, 85%, 35%, .6);
   --color-green-500: #075349;
     --color-green-500-alpha-15: hsla(172, 84%, 18%, .15);
   
@@ -49,6 +50,7 @@
   --border-radius-rounded: 50px;
   --border-radius-semi: 10px;
   --border-radius-minor: 5px;
+  --border-radius-smaller: 3px;
   /* Box shadow */
   --box-md: 0px 10px 20px -6px var(--color-green-400-alpha-50);
   --box-lg: 0px 64px 75px var(--color-black-500-alpha-50);

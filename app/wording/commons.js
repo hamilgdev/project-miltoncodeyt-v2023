@@ -3,6 +3,10 @@ export const commons = {
   text: {
     gitRepo: 'Repository',
     deploy: 'Deploy',
-    moreBehance: 'Ver más en Behance'
+    moreBehance: 'Ver más en Behance',
+    search: 'Buscar',
+    filter: 'Filtrar por',
+    categories: 'Categorías',
+    withoutResult: 'Sin resultados :('
   }
 };

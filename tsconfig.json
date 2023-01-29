@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2015",
     "lib": [
       "dom",
       "dom.iterable",
@@ -28,6 +28,12 @@
       ],
       "@utils/*": [
         "app/utils/*"
+      ],
+      "@helpers/*": [
+        "app/helpers/*"
+      ],
+      "@hooks/*": [
+        "app/hooks/*"
       ]
     },
     "plugins": [

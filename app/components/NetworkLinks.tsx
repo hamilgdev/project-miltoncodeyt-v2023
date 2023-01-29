@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import { SocialNetworksData } from 'data';
 
-export const NetworkLikns = () => {
+export const NetworkLinks = () => {
   return (
     <>
       {SocialNetworksData.map(({ title, importIcon, url }) => (
