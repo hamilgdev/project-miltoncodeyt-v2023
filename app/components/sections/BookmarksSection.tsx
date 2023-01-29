@@ -90,7 +90,7 @@ export const BookmarksSection = () => {
 
   return (
     <section className='mb-16 min-h-screen'>
-      <div className='pt-8 bg-color-green-500-alpha-15 rounded-[var(--border-radius-semi)] text-center'>
+      <div className='pt-8 bg-color-green-500-alpha-15 rounded-[var(--border-radius-semi)] text-center animate__animated animate__fadeIn'>
         <div className='l-container'>
           <h2 className='title-section'>{title}</h2>
           <p className='description-section'>{description}</p>
@@ -106,7 +106,7 @@ export const BookmarksSection = () => {
           </div>
         </div>
       </div>
-      <div className='l-container'>
+      <div className='l-container animate__animated animate__fadeInUp'>
         {loading ? (
           <div className='flex gap-2 w-full flex-col justify-center items-center py-4 bg-color-black-500-alpha-50'>
             <Loading />

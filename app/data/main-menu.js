@@ -11,7 +11,7 @@ export const MenuData = [
   },
   {
     id: 2,
-    title: 'Mis marcadores',
+    title: 'Marcadores',
     path: 'bookmarks'
   }
 ];

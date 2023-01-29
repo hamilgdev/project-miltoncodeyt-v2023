@@ -26,7 +26,7 @@ import vectorIcon from 'public/svg/vector-icon.svg';
 import flowIcon from 'public/svg/flow-icon.svg';
 
 export const BookmarksData = {
-  title: 'Las herramientas',
+  title: 'Mis favoritos',
   description: 'Una colección de recursos que me han sido muy útiles...',
   bookmarks: [
     {
