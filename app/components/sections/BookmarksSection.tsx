@@ -90,10 +90,14 @@ export const BookmarksSection = () => {
 
   return (
     <section className='mb-16 min-h-screen'>
-      <div className='pt-8 bg-color-green-500-alpha-15 rounded-[var(--border-radius-semi)] text-center animate__animated animate__fadeIn'>
+      <div className='pt-8 bg-color-green-500-alpha-15 rounded-[var(--border-radius-semi)] text-center'>
         <div className='l-container'>
-          <h2 className='title-section'>{title}</h2>
-          <p className='description-section'>{description}</p>
+          <h2 className='title-section animate__animated animate__fadeIn'>
+            {title}
+          </h2>
+          <p className='description-section animate__animated animate__fadeIn'>
+            {description}
+          </p>
 
           <div className='flex flex-col mt-12 sm:flex-row sm:gap-4'>
             <BookmarkControls
