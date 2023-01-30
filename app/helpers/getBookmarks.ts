@@ -19,7 +19,7 @@ export const getBookmarks = (query: Queries): Bookmarks[] => {
   }
 
   if (searchInput) return bookmarks.filter((bookmark) => (
-    bookmark.title.toLocaleLowerCase().includes(searchInput.toLocaleLowerCase())
+    bookmark.title.toLocaleLowerCase().includes(searchInput.toLocaleLowerCase().trim())
   )).flat()
 
 
