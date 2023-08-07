@@ -8,26 +8,26 @@ export const SocialNetworksData = [
   {
     importIcon: twitter.src,
     title: 'Twitter',
-    url: 'https://twitter.com/miltoncodeyt'
+    url: 'https://twitter.com/hamilgdev'
   },
   {
     importIcon: instagram.src,
     title: 'Instagram',
-    url: 'https://www.instagram.com/miltoncodeyt/'
+    url: 'https://www.instagram.com/hamilgdev/'
   },
   {
     importIcon: linkedin.src,
     title: 'Linkeding',
-    url: 'https://www.linkedin.com/in/miltoncodeyt/'
+    url: 'https://www.linkedin.com/in/hamilgdev/'
   },
   {
     importIcon: codepen.src,
     title: 'Codepen',
-    url: 'https://codepen.io/miltoncodeyt'
+    url: 'https://codepen.io/hamilgdev'
   },
   {
     importIcon: behance.src,
     title: 'Behance',
-    url: 'https://www.behance.net/miltoncodeyt'
+    url: 'https://www.behance.net/hamilgdev'
   }
 ];
