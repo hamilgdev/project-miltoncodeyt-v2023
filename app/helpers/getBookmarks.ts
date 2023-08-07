@@ -1,6 +1,6 @@
 import { Bookmarks, Queries } from 'types'
 
-import { BookmarksData } from "data";
+import { BookmarksData } from 'data';
 const { bookmarks } = BookmarksData
 
 export const getBookmarks = (query: Queries): Bookmarks[] => {
@@ -12,16 +12,23 @@ export const getBookmarks = (query: Queries): Bookmarks[] => {
 
   if (searchInput && filterInput.length) {
     filterInput.map(category => (
-      filteredBookmarks = bookmarks.filter(ctg => ctg.category.includes(category))
+      filteredBookmarks =
+      bookmarks.filter(ctg => ctg.category.includes(category))
     ))
 
-    return filteredBookmarks.filter(bookmark => (bookmark.title.toLocaleLowerCase().includes(searchInput.toLocaleLowerCase()))).flat()
+    return (
+      filteredBookmarks.filter(bookmark => (
+        bookmark.title
+          .toLocaleLowerCase()
+          .includes(searchInput.toLocaleLowerCase()))
+      ).flat()
+    )
   }
 
   if (searchInput) return bookmarks.filter((bookmark) => (
-    bookmark.title.toLocaleLowerCase().includes(searchInput.toLocaleLowerCase().trim())
+    bookmark.title.toLocaleLowerCase()
+      .includes(searchInput.toLocaleLowerCase().trim())
   )).flat()
-
 
   if (filterInput.length) return filterInput.map(category => (
     bookmarks.filter(ctg => ctg.category.includes(category))
@@ -29,4 +36,3 @@ export const getBookmarks = (query: Queries): Bookmarks[] => {
 
   return bookmarks
 };
-

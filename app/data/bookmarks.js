@@ -81,7 +81,6 @@ import bitlyImage from 'public/img/bookmarks/bitly.jpg';
 import hootsuiteImage from 'public/img/bookmarks/hootsuite.jpg';
 import tinypngImage from 'public/img/bookmarks/tinypng.jpg';
 
-
 export const BookmarksData = {
   title: 'Mis favoritos',
   description: 'Una colección de recursos que me han sido muy útiles...',
