@@ -1,5 +1,5 @@
 export const commons = {
-  nickname: 'miltoncodeyt',
+  nickname: 'hamilgdev',
   text: {
     gitRepo: 'Repository',
     deploy: 'Deploy',
